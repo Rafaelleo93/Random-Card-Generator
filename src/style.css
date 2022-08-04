@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  height: 420px;
+  border-radius: 20px;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.top,
+.bot {
+  height: 33%;
+}
+
+.middle {
+  height: 33%;
+}
+
+.number {
+  position: absolute;
+  margin: 0;
+  font-size: 120px;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+.icon {
+  font-size: 100px;
+}
+#icon1 {
+  position: absolute;
+  top: -9%;
+}
+#icon2 {
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+  top: 20%;
+}
